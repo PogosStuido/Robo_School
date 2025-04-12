@@ -27,6 +27,13 @@ a:hover {
     padding: calc((100vw -1200px)/2);
     margin: 0 auto;
     max-width: 1200px;
+
+    @media (max-width: 320px) {
+        & {
+            padding: 0 10px;
+            max-width: 300px;
+        }
+    }
 }
 
 .header {
@@ -84,6 +91,16 @@ a:hover {
     background: url("../img/Promo_img.png") center center/cover no-repeat;
     min-height: 100vh;
 
+    @media (max-width: 320px) {
+        & {
+            width: 320px;
+            height: 617px;
+            padding: 0;
+            padding-top: 17px;
+            background-color: var(--Second-color-blue);
+            background-image: url("../img/Promo_320px.jpg");
+        }
+    }
 }
 
 
@@ -283,13 +300,16 @@ a:hover {
     width: 40px;
 
 }
-.arrow__left:hover{
+
+.arrow__left:hover {
     background-color: var(--First-color-red);
     border-radius: 100%;
 }
+
 .arrow__right {
     transform: scaleX(-1);
 }
+
 .arrow__right:hover {
     background-color: var(--First-color-red);
     border-radius: 100%;
