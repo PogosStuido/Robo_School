@@ -291,6 +291,13 @@ a:hover {
     font-size: 50px;
     line-height: 160%;
     color: var(--Second-color-blue);
+
+    @media (max-width: 576px) {
+        & {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
 }
 
 .item__title {
@@ -300,28 +307,38 @@ a:hover {
     color: var(--Second-color-blue);
 
     &.info__icon {
-        display: flex;
-        gap: 10px;
+        position: relative;
+
+        &::after {
+            content: "i";
+            position: absolute;
+            top: 0px;
+            left: 115px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #14102414;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            font-size: 16px;
+            font-weight: 400;
+        }
     }
 }
 
-.item__title-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #14102414;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    font-size: 16px;
-    font-weight: 400;
 
-}
 
 .benefits__wrapper {
     .item__text {
         margin-top: 20px;
         max-width: 345px;
+
+        @media (max-width: 576px) {
+            & {
+                margin-top: 10px;
+            }
+        }
     }
 }
 
