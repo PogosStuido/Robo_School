@@ -91,7 +91,7 @@ a:hover {
     background: url("../img/Promo_img.png") center center/cover no-repeat;
     min-height: 100vh;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             width: 320px;
             height: 617px;
