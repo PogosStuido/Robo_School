@@ -28,7 +28,7 @@ a:hover {
     margin: 0 auto;
     max-width: 1200px;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             padding: 0 10px;
             max-width: 300px;
@@ -51,7 +51,7 @@ a:hover {
     justify-items: center;
     justify-content: center;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             padding-left: 10px;
         }
@@ -65,7 +65,7 @@ a:hover {
     color: var(--Fourth-color-white);
     text-transform: uppercase;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             font-size: 18px;
         }
@@ -78,7 +78,7 @@ a:hover {
     justify-content: space-between;
     gap: 40px;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             display: none;
         }
@@ -102,7 +102,7 @@ a:hover {
     text-align: right;
     color: var(--Fourth-color-white);
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             display: none;
         }
@@ -114,7 +114,7 @@ a:hover {
     background: url("../img/Promo_img.png") center center/cover no-repeat;
     min-height: 100vh;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             position: relative;
             width: 100vw;
@@ -135,7 +135,7 @@ a:hover {
     color: var(--Fourth-color-white);
     text-transform: uppercase;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             display: none;
         }
@@ -150,7 +150,7 @@ a:hover {
     line-height: 160%;
     color: var(--Fourth-color-white);
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             display: none;
         }
@@ -169,7 +169,7 @@ a:hover {
     color: var(--Fourth-color-white);
     cursor: pointer;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         &.promo__button {
             position: absolute;
             bottom: 40px;
@@ -190,7 +190,7 @@ a:hover {
     padding: 120px 0;
     background-color: var(--Fourth-color-white);
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             padding: 60px 0;
         }
@@ -208,7 +208,7 @@ a:hover {
         font-weight: 600;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             width: 100%;
             font-size: 20px;
@@ -224,7 +224,7 @@ a:hover {
     align-items: center;
     gap: 60px;
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             margin-top: 41px;
             flex-direction: column;
@@ -235,7 +235,7 @@ a:hover {
 }
 
 .wrapper__item {
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             display: flex;
             flex-direction: column;
@@ -251,7 +251,7 @@ a:hover {
     line-height: 160%;
     color: var(--First-color-red);
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             font-size: 60px;
             text-align: center;
@@ -266,7 +266,7 @@ a:hover {
     line-height: 160%;
     color: var(--Third-color-black-oppacity);
 
-    @media (max-width: 320px) {
+    @media (max-width: 576px) {
         & {
             width: 270px;
             font-size: 16px;
@@ -278,11 +278,12 @@ a:hover {
 .benefits {
     padding: 100px 0;
     background-color: var(--Seventh-color-background-light);
-    @media (max-width: 320px) {
-            & {
-                padding: 40px 0;
-            }
+
+    @media (max-width: 576px) {
+        & {
+            padding: 40px 0;
         }
+    }
 }
 
 .title {
